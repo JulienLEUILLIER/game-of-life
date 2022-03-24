@@ -36,6 +36,7 @@ function App() {
   const handlePause = () => {
     if (!pause){
       setPause(true);
+      setSpeed(0);
     } else {
       setSpeed(150);
       setPause(false);
